@@ -2,15 +2,14 @@
 
     "manifest_version": 2,
     "name": "RP_form",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Extensão para preenchimento automático de formulários",
 
     "permissions": [
         "webRequest",
         "tabs",
-        "http://*/*",
-        "https://*/*",
-        "declarativeContent"
+        "activeTab",
+        "<all_urls>"
     ],
 
     "browser_action": {
@@ -26,7 +25,7 @@
     ],
 
     "content_scripts": [{
-        "js": ["/ckeditor/ckeditor.js", "/content_scripts/rp_form_script.js", "/jquery/jquery-3.5.1.js"],
+        "js": ["/content_scripts/rp_form_script.js", "/content_scripts/rp_form_script1.js"],
         "matches": ["https://*/*", "http://*/*"],
         "run_at": "document_end"
     }]
