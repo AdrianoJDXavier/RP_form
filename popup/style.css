@@ -1,0 +1,38 @@
+html,
+body {
+    height: 40px;
+    width: 100px;
+    margin: 0;
+    z-index: 5000;
+}
+
+.rp_form {
+    text-align: center;
+}
+
+.btn_preenche {
+        background-image: url( '../button/icon.png' );
+        background-size: 30px 30px;
+        background-position: center; 
+        height: 30px;  
+        width: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #808080;
+}
+
+.btn_addslashes{
+    background-image: url( '../button/iconaddslashes.png' );
+    background-size: 30px 30px;
+    background-position: center; 
+    height: 30px;  
+    width: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #808080;
+}
+
+.btn_preenche:hover {
+    background-color: #3CB371;
+}
+.btn_addslashes:hover {
+    background-color: #CD5C5C;
+}
