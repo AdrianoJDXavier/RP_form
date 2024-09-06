@@ -6,7 +6,7 @@ document.addEventListener("click", function(e) {
     var chosenForm = e.target.textContent;
 
     chrome.tabs.executeScript(null, {
-        file: "/content_scripts/rp_form_script.js"
+        file: "/content_scripts/form_script.js"
     });
 
 
@@ -29,7 +29,7 @@ document.addEventListener("click", function(e) {
     var chosenForm = e.target.textContent;
 
     chrome.tabs.executeScript(null, {
-        file: "/content_scripts/rp_form_script1.js"
+        file: "/content_scripts/form_script1.js"
     });
 
     chrome.tabs.query({

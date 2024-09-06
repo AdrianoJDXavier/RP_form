@@ -1,10 +1,10 @@
-## RP_form Extension
+## AutoFillForm Extension
 
-![RP_form Logo](./button/button3.png)
+![AutoFillForm Logo](./button/logo.png)
 
 ## Descrição
 
-O **RP_form** é uma extensão para os navegadores Microsoft Edge e Firefox, projetada para preencher formulários automaticamente. Essa ferramenta é especialmente útil para desenvolvedores e testadores, economizando tempo e esforço durante os testes manuais de formulários web. 
+O **AutoFillForm** é uma extensão para os navegadores Microsoft Edge e Firefox, projetada para preencher formulários automaticamente. Essa ferramenta é especialmente útil para desenvolvedores e testadores, economizando tempo e esforço durante os testes manuais de formulários web. 
 
 ## Recursos
 
@@ -26,13 +26,13 @@ O **RP_form** é uma extensão para os navegadores Microsoft Edge e Firefox, pro
 
 ## Uso
 
-1. Após instalar a extensão, clique no ícone do **RP_form** na barra de ferramentas do navegador.
+1. Após instalar a extensão, clique no ícone do **AutoFillForm** na barra de ferramentas do navegador.
 2. Navegue até o formulário que deseja testar.
 3. Clique no botão "Preencher" e a extensão completará automaticamente os campos do formulário.
 
 ## Contribuição
 
-Se você deseja contribuir para o desenvolvimento do **RP_form**, siga as instruções abaixo:
+Se você deseja contribuir para o desenvolvimento do **AutoFillForm**, siga as instruções abaixo:
 
 1. Faça um fork deste repositório.
 2. Crie uma nova branch com sua feature: `git checkout -b minha-feature`.
